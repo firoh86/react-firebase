@@ -9,11 +9,9 @@ import 'firebase/firestore';
 import 'firebase/storage';
 // Creamos el API KEY e inicializamos la aplicacion
 const app = firebase.initializeApp({
- 'API_KEY',
+  apikey: 'API_KEY',
 });
 export default app;
-
-
 
 /* 
 En los diferentes componentes ahora podemos llamar a los diferentes módulos de firebase para usar sus métodos con:
